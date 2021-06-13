@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tr.edu.yildiz.virtualwardrobe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VirtualWardrobe">
+        <activity android:name=".activities.SelectOutfitActivity"></activity>
+        <activity android:name=".activities.AddEditOutfitActivity" />
+        <activity android:name=".activities.SelectWardrobeItemActivity" />
+        <activity android:name=".activities.AddEditWardrobeItemActivity" />
+        <activity android:name=".activities.AddEditEventActivity" />
+        <activity android:name=".activities.AddEditDrawerActivity" />
+        <activity android:name=".activities.WardrobeItemListActivity" />
+        <activity android:name=".activities.OutfitListActivity" />
+        <activity android:name=".activities.EventListActivity" />
+        <activity android:name=".activities.DrawerListActivity" />
+        <activity android:name=".activities.MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
